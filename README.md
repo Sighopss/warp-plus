@@ -85,17 +85,68 @@ bash <(curl -fsSL https://raw.githubusercontent.com/bepass-org/warp-plus/master/
 ```
 ![1](https://github.com/Ptechgithub/configs/blob/main/media/18.jpg?raw=true)
 
-- اگه حس کردی کانکت نمیشه یا خطا میده دستور `rm -rf .cache/warp-plus` رو بزن و مجدد warp رو وارد کن.
-- بعد از نصب برای اجرای مجدد فقط کافیه که `warp` یا `usef` یا `./warp` یا `warp-plus`را وارد کنید. همش یکیه هیچ فرقی ندارد.
-- اگر با 1 نصب نشد و خطا گرفتید ابتدا یک بار 3 را بزنید تا `Uninstall` شود سپس عدد 2 رو انتخاب کنید یعنی Arm.
-- برای نمایش راهنما ` warp -h` را وارد کنید. 
-- ای پی و پورت `127.0.0.1:8086`پروتکل socks
-- در روش تبدیل اکانت  warp به warp plus (گزینه 6) مقدار ID را وارد میکنید. پس از اجرای warp دو اکانت برای شما ساخته شده که پس از انتخاب گزینه 6 خودش مقدار ID هر دو اکانت را پیدا میکند و شما باید هر بار یکی را انتخاب کنید و یا میتوانید با انتخاب manual مقدار ID دیگری را وارد کنید (مثلا برای خود برنامه ی 1.1.1.1 یا جای دیگر) با این کار هر 20 ثانیه 1 GB به اکانت شما اضافه میشود. و اکانت شما از حالت رایگان به پلاس تبدیل میشود. 
-- برای تغییر  لوکیشن با استفاده از سایفون از طریق منو یا به صورت دستی (برای مثال به USA  از دستور  زیر استفاده کنید) 
-- `warp --cfon --country US`
-- برای اسکن ای پی سالم وارپ از دستور `warp --scan` استفاده کنید. 
-- برای ترکیب (chain) دو کانفیگ برای تغییر لوکیشن از دستور `warp --gool` استفاده کنید. 
+Warp / Warp Plus Instructions
 
+Running Warp:
+
+After installation, you can run the service using any of the following commands:
+
+warp
+usef
+./warp
+warp-plus
+
+
+All commands work the same way.
+
+Reinstallation / Uninstalling:
+
+If the first installation fails or shows errors:
+
+Run option 3 to uninstall.
+
+Run option 2 to install Arm version.
+
+Help / Guidance:
+
+warp -h
+
+
+Shows all available commands and options.
+
+Local IP / Port Configuration:
+
+Default IP and port: 127.0.0.1:8086
+
+Protocol: socks
+
+Warp to Warp Plus Conversion:
+
+Use option 6 to convert your Warp account to Warp Plus.
+
+Enter the ID when prompted.
+
+After running Warp, two accounts are created. The program can detect the IDs automatically.
+
+You can select one account or manually input a different ID (for example, 1.1.1.1).
+
+Using this method, 1 GB is added every 20 seconds, upgrading your account from free to Plus.
+
+Change Location (Country):
+
+Example: Change to the USA using:
+
+warp --cfon --country US
+
+
+Scan for Healthy Warp IPs:
+
+warp --scan
+
+
+Chain Two Configurations to Change Location:
+
+warp --gool
 ## Acknowledgements
 
 - Cloudflare Warp
